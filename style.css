@@ -1,0 +1,224 @@
+body {
+  
+margin: 0 auto;
+}
+.container{
+    margin: 0 auto;   
+}
+.header{
+  background-image: url(img/fon2.jpg);
+
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+  align-items: center;
+  justify-content:space-between;
+}
+.header_logo{
+  display: flex; 
+}
+.header_text1{
+  display: flex;
+  margin-left: 2%;
+  font-size: 46px;
+  font-stretch: ultra-condensed;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(199, 245, 72);
+  text-shadow: 1px 1px 4px #000;
+  font-style: oblique;
+
+}
+.header_text2{
+  display: flex;
+  margin-left: 7%;
+  font-size: 30px;
+  font-stretch: ultra-condensed;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(196, 236, 85);
+  text-shadow: 1px 1px 4px #000;
+ 
+
+}
+.header_text3 {
+  margin-left: 10%;
+  font-size: 30px;
+  font-stretch: ultra-condensed;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(196, 236, 85);
+  text-shadow: 1px 1px 4px #000;
+
+
+  }
+  .header_text3_text1{
+    margin-right: 3%;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    border: 3px solid rgba(153, 211, 59, 0.938);
+    border-radius:20%;
+    padding: 5px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+  }
+    .header_text3_text1 a{
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.705);
+    }
+
+
+  .header_text3_text1:hover{
+  
+    background-color: rgba(166, 241, 94, 0.842);
+    transition: 0.9s;
+    color: rgba(20, 82, 1, 0.87);
+  }
+    
+  .header_text3_text1:hover a{
+    color: rgba(17, 97, 1, 0.87);
+  }
+
+  
+.header_menu {
+  background-color: rgba(195, 255, 83, 0.952);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.block {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  color: black;
+  font-size: 28px;
+  border: 5px solid rgba(153, 211, 59, 0.993);
+  border-radius:13%;
+  text-align: center;
+  margin: 0;
+  width: 15%;
+
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(199, 250, 103);
+  margin: 0 auto;
+  }
+  
+  .block a {
+text-decoration: none;
+color: black;
+transition: 0.9s;
+}
+
+.block:hover {
+background-color: rgba(136, 255, 25, 0.856);
+transition: 0.9s;
+color: rgba(0, 70, 6, 0.904);
+}
+
+.block:hover a {
+color: rgba(20, 82, 1, 0.925);
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  
+}
+.content_left{
+  background-image: url(img/fon1.jpg);
+    background-color: rgba(255, 159, 124, 0.377);
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    width: 20%; 
+}
+.content_center{
+ 
+  display: flex;
+  flex-direction: column; /** row;  Почему ROW если надо центральный блок разместить вертикально? */
+  justify-content: center; 
+  width: 80%;
+  
+}
+
+.content_right{
+  background-image: url(img/fon1.jpg);
+  background-color: rgba(130, 130, 252, 0.37);
+  display: flex;
+  flex-direction: row; /* Надо ведь встолбец если в строку, то тогда еще flex-wrap: wrap; */
+  justify-content: center; 
+  width: 20%;
+ 
+}
+.footer {
+  display: flex;
+  width: 100%; 
+  flex-direction: row;
+  justify-content: center; 
+  background-color:rgba(195, 255, 83, 0.952);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  font-size: 17px;
+  font-weight: 700;
+  justify-content: space-around;
+  }
+/* делаем блок flex и внутренние отступы автоматические , для выравнивания */
+.block_ph0{
+  display: flex;
+  margin: auto;
+  }
+ 
+ /* Для блока / строки с картинками нужно сделать тоже flex и перенос в случае переполнения */
+.block_ph1,.block_ph2,.block_ph3,.block_ph4{
+	display: flex;flex-wrap: wrap;
+    justify-content: space-around;
+	}
+
+.block_header_market{
+	display:flex;
+	margin:auto;
+	font-size: 2rem;
+
+}
+
+.tt1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  color: black;
+  font-size: 17px;
+  text-align: center;
+  margin: 0;
+  font-weight: 700;
+  justify-content: space-around;
+}
+.block_o_nas{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  color: black;
+  font-size: 17px;
+  text-align: center;
+  margin: 0;
+  font-weight: 900;
+  justify-content: space-around;
+}
+.block_o_nas1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  color: black;
+  font-size: 17px;
+  text-align: center;
+  margin: 0;
+  font-weight: 600;
+  justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+    
